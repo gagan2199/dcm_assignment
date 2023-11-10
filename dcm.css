@@ -21,8 +21,15 @@ body{
     /* align-items: center; */
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .navbar {
   display: flex;
+  flex-wrap: wrap;
+  flex-flow: wrap;
   align-items: center;
   justify-content: space-between;
   background-color: #f7f7f7;
@@ -67,6 +74,7 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 
@@ -111,6 +119,9 @@ body{
     width: 100%;
 }
 .wwr{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
     background-image: url(wwr.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -139,6 +150,7 @@ body{
     margin-top: 30px;
     font-weight: bolder;
     font-size: 2.1rem;
+    font-family: "Poppins", sans-serif;
 }
 .wwr1-3{
     margin-top: 30px;
@@ -158,4 +170,108 @@ body{
     background-color:#0b2355;
     border: solid 2px white;
     color: white;
+}
+
+.roles{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.role1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 30px;
+}
+
+.des{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.projects{
+    background-color: #020814;
+    color: white;
+}
+
+.des1{
+    font-size: 3rem;
+   
+    width: 25%;
+    padding: 10px;
+}
+.des2{
+    font-size: 1.2rem;
+   
+    width: 25%;
+    padding: 10px;
+}
+.des3 button{
+    padding: 18px;
+    border-radius: 12px;
+    border-color: #f7f7f7;
+    
+}
+
+.des3 button:hover {
+    cursor: pointer;
+    background-color:#0b2355;
+    border: solid 2px white;
+    color: white;
+}
+
+.projectlist{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 60px 40px;
+    
+}
+.p1{
+    padding: 18px;
+    border-radius: 12px;
+    border-color: #f7f7f7;
+}
+
+.sl{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;   
+}
+
+.sl1-2 button{
+    padding: 18px;
+    border-radius: 12px;
+    border-color: #f7f7f7;
+    
+}
+.sl1-2 button:hover {
+    cursor: pointer;
+    background-color:#0b2355;
+    border: solid 2px white;
+    color: white;
+}
+
+.revdcm{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.end{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
